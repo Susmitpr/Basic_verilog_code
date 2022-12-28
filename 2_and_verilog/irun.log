@@ -1,0 +1,43 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Nov 25, 2022 at 15:42:28 IST
+irun
+	+access+rwc
+	and.sv
+	and_tb.sv
+	+gui
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+ncsim: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm and_tb.and_g.a and_tb.and_g.b and_tb.and_g.c
+Created probe 1
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Nov 25, 2022 at 15:49:06 IST  (total: 00:06:38)
