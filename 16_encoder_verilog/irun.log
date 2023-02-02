@@ -1,0 +1,88 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 27, 2022 at 18:36:09 IST
+irun
+	+access+rwc
+	encoder.v
+	encoder_tb.v
+	+gui
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+Recompiling... reason: file './encoder_tb.v' is newer than expected.
+	expected: Tue Dec 27 18:30:43 2022
+	actual:   Tue Dec 27 18:36:07 2022
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+ncvlog: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+file: encoder_tb.v
+	module worklib.encoder_testbench:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+irun: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+ncelab: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		encoder_testbench
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+ncvlog_cg: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+		worklib.encoder_testbench:v <0x4ac15fdf>
+			streams:   4, words:  3440
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           3       3
+		Scalar wires:        1       -
+		Vectored wires:      2       -
+		Always blocks:       1       1
+		Initial blocks:      2       2
+		Pseudo assignments:  2       2
+	Writing initial simulation snapshot: worklib.encoder_testbench:v
+DEFINE NAND /home/MSIS/DSVD/NAND
+|
+ncsim: *W,DLCPTH (/home/MSIS/cds.lib,2): cds.lib Invalid path '/home/MSIS/DSVD/NAND' (cds.lib command ignored).
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm encoder_testbench.dut.clear encoder_testbench.dut.i encoder_testbench.dut.o
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 60 NS + 0
+./encoder_tb.v:19 initial #60 $finish;
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 27, 2022 at 18:36:47 IST  (total: 00:00:38)

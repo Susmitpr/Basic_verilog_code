@@ -1,0 +1,20 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(27Dec2022:18:15:14):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s2::(27Dec2022:18:15:32):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s3::(27Dec2022:18:15:57):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s4::(27Dec2022:18:16:08):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s5::(27Dec2022:18:23:03):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s6::(27Dec2022:18:27:08):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s7::(27Dec2022:18:28:06):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s8::(27Dec2022:18:30:46):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s9::(27Dec2022:18:32:11):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s10::(27Dec2022:18:32:42):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s11::(27Dec2022:18:32:58):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s12::(27Dec2022:18:33:45):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s13::(27Dec2022:18:33:55):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s14::(27Dec2022:18:34:55):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s15::(27Dec2022:18:35:53):( irun +access+rwc encoder.v encoder_tb.v +gui )
+s16::(27Dec2022:18:36:09):( irun +access+rwc encoder.v encoder_tb.v +gui )

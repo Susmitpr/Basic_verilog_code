@@ -1,0 +1,5 @@
+s1(27Dec2022:18:51:28):  irun +access+rwc priority_encoder.v priority_encoder_tb.v 
+s2(27Dec2022:18:51:54):  irun +access+rwc priority_encoder.v priority_encoder_tb.v 
+s3(27Dec2022:18:52:22):  irun +access+rwc priority_encoder.v priority_encoder_tb.v 
+s4(27Dec2022:18:52:30):  irun +access+rwc priority_encoder.v priority_encoder_tb.v +gui 
+s5(27Dec2022:18:53:02):  irun +access+rwc priority_encoder.v priority_encoder_tb.v +gui 
